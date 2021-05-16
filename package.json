@@ -1,0 +1,40 @@
+{
+  "name": "Pokemon",
+  "version": "1.0.0",
+  "description": "This App is Designed for Pokemon",
+  "main": "main.js",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "Ambuj Shrivastav",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "url-loader": "^3.0.0",
+    "es6-promise": "^4.2.8"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/helper-compilation-targets": "^7.12.5",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.11.5",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-ignore-html-and-css-imports": "0.0.2",
+    "babel-plugin-react-html-attrs": "^2.1.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-webpack-plugin": "^0.1.1",
+    "css-loader": "^3.4.2",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^1.1.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  }
+}
