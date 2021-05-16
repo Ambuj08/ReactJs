@@ -1,0 +1,14 @@
+.app_comp{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.app_comp .card {
+    flex-basis: 25%;
+}
+img.pokeManImage {
+    width: 100%;
+}
+.app_comp .card {
+    width: calc(100% /4 - 20px);
+}
