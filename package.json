@@ -2,7 +2,7 @@
   "name": "Pokemon",
   "version": "1.0.0",
   "description": "This App is Designed for Pokemon",
-  "main": "main.js",
+  "main": "./build/main.js",
   "scripts": {
     "start": "webpack-dev-server --open",
     "build": "webpack"
